@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    font-family: sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid orange; */
+    /* background: linear-gradient(to bottom, rgb(218, 191, 151) , rgb(230, 230, 152)); */
+    background-image: url('./Wallpaper.jpg');
+    background-size: cover;
+    filter: blur(85%);
+
+}
+
+
+.sub{
+    /* border: 2px solid red ; */
+    height: 35em;
+    width: 25em;
+    display:flex ;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.603);
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #97626244 , white);
+    filter: blur(100%);
+}
+
+input{
+    height: 4em;
+    width: 20em;
+    padding: 1em;
+    font-weight: 600;
+    font-style: italic;
+    border: none;
+    border-radius: .8em;
+}
+
+.subtn{
+    margin-top: 2em;
+    height: 3em;
+    width: 5em;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(14, 101, 168);
+    color: white;
+}
+
+.subtn:hover{
+    background-color: rgb(14, 35, 52);
+}
+
+
+.subLogin{
+    height: 30em;
+    width: 25em;
+    display:flex ;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
+    border-radius: 25px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.603),#ffb65785);
+}
+
+.btnSubmit{
+
+    margin-top: 2em;
+    height: 3em;
+    width: 6em;
+    background-color: rgb(14, 101, 168);
+    color: white;
+}
+
+.btnSubmit:hover{
+
+    background-color: rgb(15, 132, 179);    
+    transform: scale(1.2);
+    transition: all .8s ease;
+}
+
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, hotpink, crimson);
+    
+}
+
+.homeHeading{
+
+    font-size: 100px;
+    color: white;
+}
+
+.moving{
+
+    color: rgb(240, 223, 155);
+    font-size: 50px;
+    font-weight: 900;    
+}
+
+.heading{
+    color: white;
+    font-size: 60px;
+}
+
+.heading2{
+    color: white;
+    font-size: 60px;
+}
